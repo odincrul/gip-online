@@ -19,6 +19,7 @@ header h1 {
 .dropdown {
   position: relative;
   display: inline-block;
+  color:grey;
 }
 
 /* Dropdown Content (Hidden by Default) */
