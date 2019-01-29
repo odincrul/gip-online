@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
       <!-- Bootstrap core CSS -->
+	  	<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -22,46 +23,93 @@
                         <a class="nav-link js-scroll-trigger"  link href="index.html">Start</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#about" >Wie ben ik</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#GIP">GIP</a>
+                        <a class="nav-link js-scroll-trigger" link href="wie.html">GIP</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" link href="stage.html">Stage</a>
                     </li>
 					  <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" link href="extra.html">Extra</a>
+					    <div class="dropdown">
+							<span> Extra </span>
+    <div class="dropdown-content" role="menu" aria-labelledby="menu1">
+      <a link href="planning.html">Planning</a>
+		<a  link href="bestand.html">Brieven</a>
+	  <a  link href="Vlog.html">Vlogs</a>
+	  <a link href="log.html">Logboek</a>
+  </div>
+              
                     </li>
                 </ul>
             </div>
-        </div>
     </nav>
 	
-	   <section class="features-icons text-center">
-        <div class="container">
-          
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
-                        <div class="features-icons-icon mb-5">
-
-                        </div>
-						  <h1 class="text-center mb-5 mb-lg-0 mb-lg-3">Logboek</h1>
-                     
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-       
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12" style="background-color:lavender;">.col-sm-4</div>
-    <div class="col-sm-12" style="background-color:lavenderblush;">.col-sm-4</div>
-    <div class="col-sm-12" style="background-color:lavender;">.col-sm-4</div>
+<div>
+	<div class="jumbotron text-center">
+  <h1>Logboek</h1>
   </div>
-</div>
+</div> 
+<div>  
+  <div>
+  
+   <button class="accordion text-center"> December</button>
+<div class="panel">
+<p><span style="font-size: 14.0pt; line-height: 115%;">&nbsp;Ik ben van GIP veranderd in plaats van een loop/tijdsysteem ga ik nu simon says maken. Deze opdracht is mij gegeven door meneer Lippens </span></p>
 
+  </div>
+  
+  <button class="accordion text-center"> Januari</button>
+ <div class="panel">
+<p><span style="font-size: 14.0pt; line-height: 115%;">Ik heb verder zitten werken aan mijn website en dingen over mijn GIP zitten opzoeken. Ook heb ik nog de powerpoint voor de gipverdediging gemaakt. Wel iets te laat.</span></p>
+
+
+  </div>
+  
+  <button class="accordion text-center"> Februari</button>
+<div class="panel">
+<p><span style="font-size: 14.0pt; line-height: 115%;">&nbsp; </span></p>
+
+  </div>
+  
+  <button class="accordion text-center"> Maart</button>
+<div class="panel">
+<p><span style="font-size: 14.0pt; line-height: 115%;">&nbsp; </span></p>
+
+  </div>
+  
+  <button class="accordion text-center">April</button>
+<div class="panel">
+<p><span style="font-size: 14.0pt; line-height: 115%;"></span></p>
+
+  </div>
+  
+  <button class="accordion text-center">Mei</button>
+<div class="panel">
+<p><span style="font-size: 14.0pt; line-height: 115%;"></span></p>
+
+  </div>
+  
+  <button class="accordion text-center">Juni</button>
+<div class="panel">
+<p><span style="font-size: 14.0pt; line-height: 115%;"></span></p>
+
+  </div>
+  <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+ </div>
+</div>
 </body>
 </html>
